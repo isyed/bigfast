@@ -1,0 +1,24 @@
+
+package com.bigfast.protobuf;
+
+option optimize_for = SPEED;
+
+message Operation {
+  optional string putKey = 1;
+  optional string putValue = 2;
+  optional string getKey = 3;
+}
+
+message Operations {
+  repeated Operation operation = 1;
+}
+
+message Result {
+  optional string putResult = 1;
+  optional string getResult = 2;
+}
+
+message Results {
+  repeated Result result = 1;
+}
+
