@@ -1,0 +1,1 @@
+An OffHeap String Cache in Java, with support for ProtoBuf based access and a LRU eviction policy
