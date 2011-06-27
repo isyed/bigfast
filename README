@@ -1,1 +1,7 @@
 An OffHeap String Cache in Java, with support for ProtoBuf based access and a LRU eviction policy
+
+REQUIREMENTS:
+- Netty 3.2.4
+- Google Protocol Buffers 2.4.1
+- JUnit 4.7
+- JDK 1.6.x
